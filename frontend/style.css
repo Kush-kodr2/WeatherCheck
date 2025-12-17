@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgray;
+}
+header{
+    position: absolute;
+    top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+header h1{
+    text-shadow: 2px 2px 4px #000000;
+}
+main {
+    height: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: #e69494;
+    border-radius: 14px;
+}
+#weather_btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#cityInput{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    width: 60%;
+}
