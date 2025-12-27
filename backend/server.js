@@ -1,11 +1,16 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 const app = express();
+
 app.use(cors());
 
+// Serve static files from frontend folder
+app.use(express.static(path.join(__dirname, "../frontend")));
+
 app.get("/api/hello", (req, res) => {
-    res.json({ message: "Hello from backend 👋, KUSH" });
+    res.json({ message: "Hello from backend, KUSH" });
 });
 
 

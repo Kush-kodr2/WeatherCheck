@@ -11,7 +11,7 @@ async function getWeather() {
   output.innerText = "";
 
   try {
-    const res = await fetch(`http://localhost:3000/api/weather?city=${city}`);
+    const res = await fetch(`/api/weather?city=${city}`);
 
     const data = await res.json();
     if (data.error) {
