@@ -19,7 +19,7 @@ frontend–backend communication, internal APIs, and external API integration.
 
 ## Learning Outcomes
 
-- Frontend ↔ Backend architecture
+- Frontend & Backend architecture
 - Internal vs External APIs
 - Async JavaScript
 - CORS handling

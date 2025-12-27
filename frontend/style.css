@@ -12,7 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:darkgray;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* to apply linear gradient background  */
 }
 header{
     position: absolute;
@@ -33,7 +34,7 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    background: #e69494;
+    background: linear-gradient(to right, #0893c2, #00b4db);
     border-radius: 14px;
 }
 #weather_btn{
